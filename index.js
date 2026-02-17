@@ -66,11 +66,11 @@ client.once("ready", async () => {
       .addIntegerOption(o =>
         o.setName("valore")
           .setDescription("Nuova percentuale")
-          .setRequired(true)
+          .setRequired(true),
       )
    new SlashCommandBuilder()
      .setName("admin")
-     .setDescription("Pannello amministratore")
+     .setDescription("Pannello amministratore"),
 
   ];
 
@@ -129,7 +129,7 @@ client.on("interactionCreate", async interaction => {
     new ButtonBuilder()
       .setCustomId("admin_close")
       .setLabel("Chiudi")
-      .setStyle(ButtonStyle.Secondary)
+      .setStyle(ButtonStyle.Secondary),
   );
 
   interaction.reply({ embeds: [embed], components: [row], ephemeral: true });
