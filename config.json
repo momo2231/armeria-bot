@@ -1,0 +1,15 @@
+{
+  "adminRole": null,
+  "percentualeFatture": 10,
+
+  "canaleCartellino": null,
+  "canaleFatture": null,
+  "logFatture": null,
+  "canaleAnnunci": null,
+
+  "testoAnnuncio": null,
+  "timerAnnunci": null
+}
+{
+  "resetStipendiUltimo": null
+}
